@@ -1,0 +1,17 @@
+To Do List:
+
+individual to-do's:
+    - title
+    - description
+    - dueDate
+    - priority
+    - notes(optional)
+
+features:
+    - project folders that can separate to-do's
+
+
+project logic:
+    - function that takes in the project name
+    - then reads the list and displays only the to-do's with the matching project attribute
+

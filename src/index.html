@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="inputs">
+      <div class="input">
+        <label for="titleInput">Title</label>
+        <input type="text" id="titleInput" />
+      </div>
+      <div class="input">
+        <label for="descriptionInput">Description</label>
+        <input type="text" id="descriptionInput" />
+      </div>
+      <div class="input">
+        <label for="dueInput">Due Date</label>
+        <input type="text" id="dueInput" />
+      </div>
+      <div class="input">
+        <label for="priorityInput">Priority</label>
+        <input type="text" id="priorityInput" />
+      </div>
+      <button class="submitToDo">Submit</button>
+    </div>
+    <div class="projInputs">
+      <div class="projInput">
+        <label for="projTitleInput">Title</label>
+        <input type="text" id="projTitleInput" />
+      </div>
+      <button class="submitProj">Submit</button>
+    </div>
+    <div class="addProjectInputs">
+      <div class="addProjectInput">
+        <label for="addProjectDropdown">Select Project</label>
+        <select id="addProjectDropdown">
+          <!-- Options will be dynamically added here -->
+        </select>
+      </div>
+      <button class="submitAddProj">Submit</button>
+    </div>
+    <div id="content">
+      <div class="sidebar">
+        <div class="circles">
+          <div class="circle red"></div>
+          <div class="circle yellow"></div>
+          <div class="circle green"></div>
+        </div>
+        <div class="projects">
+          <div class="projNames"></div>
+          <button class="addProject">Add Project</button>
+        </div>
+      </div>
+      <div class="toDo-Container">
+        <div class="buttons">
+          <button class="add">Add To-Do</button>
+          <button class="clear">Clear Tasks</button>
+        </div>
+        <div class="to-dos"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <div class="inputs">
+      <div class="input">
+        <label for="titleInput">Title</label>
+        <input type="text" id="titleInput" />
+      </div>
+      <div class="input">
+        <label for="descriptionInput">Description</label>
+        <input type="text" id="descriptionInput" />
+      </div>
+      <div class="input">
+        <label for="dueInput">Due Date</label>
+        <input type="text" id="dueInput" />
+      </div>
+      <div class="input">
+        <label for="priorityInput">Priority</label>
+        <input type="text" id="priorityInput" />
+      </div>
+      <button class="submitToDo">Submit</button>
+    </div>
+    <div id="content">
+      <div class="sidebar">
+        <div class="circles">
+          <div class="circle red"></div>
+          <div class="circle yellow"></div>
+          <div class="circle green"></div>
+        </div>
+        <h2>School</h2>
+        <h2>Work</h2>
+      </div>
+      <div class="toDo-Container">
+        <div class="buttons">
+          <button class="add">Add To-Do</button>
+        </div>
+        <div class="to-dos">
+          <div class="card">
+            <h1 class="title">Take Out trash</h1>
+            <h3 class="description">
+              Description: Remember to take out garbage
+            </h3>
+            <h3 class="due">Due-Date: 8-9-24</h3>
+            <h3 class="priority">Priority: High</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
